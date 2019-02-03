@@ -33,11 +33,11 @@ public class FirstTest {
         firstButton.click();
         WebElement loginField = driver.findElement(By.xpath("//*[@id='passp-field-login']"));
         loginField.sendKeys("testuser47@yandex.ru");
-        WebElement enterButton = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div/div[2]/div/div/div[1]/form/div[3]/button[1]"));
+        WebElement enterButton = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div/div[3]/div[2]/div/div[1]/form/div[3]/button[1]"));
         enterButton.click();
         WebElement passwordField = driver.findElement(By.xpath("//*[@id='passp-field-passwd']"));
         passwordField.sendKeys("testpassworD");
-        WebElement loginButton = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div/div[2]/div/div/div/form/div[2]/button"));
+        WebElement loginButton = driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div/div[3]/div[2]/div/div/form/div[2]/button"));
         loginButton.click();
         WebElement profileUser = driver.findElement(By.xpath("//*[@id='nb-1']/body/div[2]/div[5]/div/div[2]/div[4]/div[7]/div"));
         String mailUser = profileUser.getText();
